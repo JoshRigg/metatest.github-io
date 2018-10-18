@@ -2354,7 +2354,10 @@ cite {
 abbr, abbr[title] {
   border-bottom: 1px dotted #0a0a0a;
   cursor: help;
-  text-decoration: none; }
+  text-decoration: none;
+    color: gray;
+    font-size: 12px;
+   }
 
 figure {
   margin: 0; }
@@ -2488,21 +2491,22 @@ ul.no-bullet, ol.no-bullet {
     page-break-inside: auto; } }
 
 .button {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0 0 1rem 0;
-  font-family: inherit;
-  padding: 0.85em 1em;
-  -webkit-appearance: none;
-  border: 1px solid transparent;
-  border-radius: 0;
-  transition: background-color 0.25s ease-out, color 0.25s ease-out;
-  font-size: 0.9rem;
-  line-height: 1;
-  text-align: center;
-  cursor: pointer;
-  background-color: #1779ba;
-  color: #fefefe; }
+  ddisplay: inline-block;
+    vertical-align: middle;
+    margin: 0 0 1rem 0;
+    font-family: inherit;
+    padding: 0.85em 1em;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    font-size: 0.9rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background-color: #1779ba;
+    color: #fefefe;
+    margin-left: -25px; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
   .button:hover, .button:focus {
@@ -4858,8 +4862,8 @@ table {
     padding: 0.5rem 0.625rem 0.625rem;
     font-weight: bold; }
   table thead {
-    background: #f8f8f8;
-    color: #0a0a0a; }
+    background: #353535;
+    color: #ffffff; }
   table tfoot {
     background: #f1f1f1;
     color: #0a0a0a; }
