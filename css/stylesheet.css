@@ -1,0 +1,209 @@
+.hero {
+	background-image: url(../assets/background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	min-height: 100vh;
+	width: 100%;
+	align-items: center;
+}
+
+.hero .grid-container {
+	width: 100%;
+}
+
+.hero h1 {
+	font-size: 54px;
+	line-height: 1.4;
+}
+
+.hero p {
+
+}
+
+#services {
+}
+
+header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	left: 0;
+	padding-top: 20px;
+}
+
+
+ul {
+	color: white; font-family: Gidole; 
+	list-style-type: none;
+}
+
+li {
+	color: white;
+	display: inline-block;
+	width: 80px;
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+
+}
+
+li a { 
+	color: white; 
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+h1 {
+	color: white; font-family: gidole;
+	font-size: 24px;
+}
+
+p {
+	color: white;
+	font-family: Tahoma;
+	font-weight:lighter; 
+	font-size: 20px;
+	line-height: 31px;
+}
+
+i {
+	color: white;
+	font-size: 25px;
+
+}
+
+.logo {
+	width: 70px;
+}
+
+.scroll-down {
+	color: white;
+}
+
+.scroll-down i {
+	margin-right: 10px;
+}
+
+.services-nav {
+	padding-top: 50px;
+
+}
+
+ul.services-nav {
+	color: #1fa6cd; font-family: Gidole; 
+	list-style-type: none;
+	padding-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+ul.services-nav a {
+
+	color: #1fa6cd;
+	display: inline;
+	text-align: center;
+
+}
+
+.original-logo {
+    width: 90px;
+    padding-top: 30px;
+    align-items: right;
+}
+
+.contact-details li.chat {
+	text-transform: uppercase;
+	color: #1fa6cd;
+	font-weight: bold;
+}
+
+.contact-details li {
+	color: #1fa6cd;
+	width: 100%;
+	text-align: left;
+	font-size: 15px
+
+}
+
+.contact-details i {
+	color: #1fa6cd;
+	margin-right: 10px;
+	font-size: 15px;
+}
+
+/* Intro Section Styling */
+
+.intro-section {
+	background-image: url(../assets/background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 100px 0;
+
+
+}
+
+.intro-section h3 {
+	color: #ffffff;
+	text-align: center;
+	font-family: gidole;
+	text-transform: uppercase;
+}
+
+.intro-section i {
+	margin-right: 10px;
+}
+
+.service-section p {
+	color: white;
+	font-family: roboto;
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+	margin: 150px;
+	line-height: 30px
+}
+
+/* Footer Section */
+
+.footer {
+	background-image: url(../assets/footer.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 100px 0;
+	margin-top: 150px;
+	width: 100%;
+}
+
+.footer h3 {
+	color: white;
+	font-family: gidole;
+	font-size: 48px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.footer h2 {
+	color: white;
+	font-family: gidole;
+	font-size: 55px;
+	font-weight: 900;
+	margin: -20px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Gidole';
+    src: url('../fonts/gidole-regular');
+    font-family: roboto;
+    src: url('../fonts/roboto-regular');
+}
